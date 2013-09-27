@@ -17,7 +17,7 @@ Feature: Post a blog
     Given I am on "comment.php"
     When I fill in "comment" with "comment here for testing"
     And I press "sendComment"
-    Then I should see "Please login"
+    Then I should see "Please login login login"
 
   @javascript
   Scenario: post a blog success
