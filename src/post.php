@@ -19,7 +19,7 @@
 			</div>
 			<div class="form-group">
 				<label class="col-lg-2 control-label">
-					Content
+					Contentádasdasd
 				</label>
 				<textarea name="content" id="content" rows="10" cols="30"></textarea>
 			</div>
