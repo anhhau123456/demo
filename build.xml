@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="demo" default="build">
+ <target name="build"
+   depends="behat_prepare, behat_test"/>
+
+ <target name="behat_prepare" description="Download tool for behat">
+  <exec executable="php">
+   <arg value="composer.phar" />  
+   <arg value="install" />
+  </exec>
+ </target>
+ 
+  <target name="behat_test" description="Test with behat">
+  <exec executable="./bin/behat">
+  </exec>
+ </target>
+</project>
