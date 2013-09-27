@@ -13,7 +13,7 @@
 		<form class="form-horizontal">
 			<div class="form-group">
 				<label class="col-lg-2 control-label">
-					Title
+					Titleaaaaa
 				</label>
 				<input name="title" id="title" type="text"/>
 			</div>
