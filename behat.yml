@@ -3,5 +3,6 @@ default:
     extensions:
         Behat\MinkExtension\Extension:
             base_url: http://localhost/behat
+            browser_name: phantomjs
             goutte: ~
             selenium2: ~
